@@ -64,7 +64,7 @@ export const Parent = ({ activeStep, children }: ParentProps) => {
     <StepperContext.Provider value={contextValue}>
       <div>
         <h2>Stepper Parent</h2>
-        <h3>Registered Step IDs {steps.join(", ")}</h3>
+        <h3>Step IDs {steps.join(", ")}</h3>
         <div className="my-4 flex gap-8">{children}</div>
       </div>
     </StepperContext.Provider>
